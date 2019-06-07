@@ -1,0 +1,37 @@
+Package: newsr
+Title: All of 'news-r' Tools in One Place
+Version: 0.0.1
+Authors@R: 
+    person(given = "John",
+           family = "Coene",
+           role = c("aut", "cre"),
+           email = "jcoenep@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: All of 'news-r' tools in one place.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+    cli,
+    crayon,
+    rstudioapi,
+    newsapi,
+    guardian, 
+    papers, 
+    loc, 
+    webhoser, 
+    webhoserx, 
+    currents, 
+    nytimes, 
+    spotlight
+Remotes:
+    news-r/newsapi,
+    news-r/guardian, 
+    news-r/papers, 
+    news-r/loc, 
+    news-r/webhoser, 
+    news-r/webhoserx, 
+    news-r/currents, 
+    news-r/nytimes, 
+    news-r/spotlight
