@@ -1,6 +1,17 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.org/news-r/newsr.svg?branch=master)](https://travis-ci.org/news-r/newsr)
 <!-- badges: end -->
@@ -29,7 +40,6 @@ All of news-r _R_ tools in one place.
 remotes::install_github("news-r/newsr")
 ```
 
-
-```r
+```{r}
 library(newsr)
 ```
