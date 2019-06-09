@@ -39,7 +39,7 @@ newsr_attach <- function(pkgs){
   cat(
     cli::rule(
       left = "Attaching newsr",
-      right = paste0("newsr ", utils::packageVersion("twinetverse"))
+      right = paste0("newsr ", utils::packageVersion("newsr"))
     ),
     "\n"
   )
