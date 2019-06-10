@@ -31,6 +31,7 @@ All of news-r _R_ tools in one place.
 - [currents](https://github.com/news-r/currents)
 - [nytimes](https://github.com/news-r/nytimes)
 - [spotlight](https://github.com/news-r/spotlight)
+- [stocknews](https://github.com/news-r/stocknews)
 
 ## Installation
 

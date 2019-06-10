@@ -24,7 +24,8 @@ Imports:
     webhoserx, 
     currents, 
     nytimes, 
-    spotlight
+    spotlight,
+    stocknews
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -35,3 +36,4 @@ Remotes:
     news-r/currents, 
     news-r/nytimes, 
     news-r/spotlight
+    news-r/stocknews
