@@ -28,7 +28,8 @@ Imports:
     nytimes, 
     spotlight,
     stocknews,
-    ft
+    ft,
+    async
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -41,3 +42,4 @@ Remotes:
     news-r/spotlight,
     news-r/stocknews,
     news-r/ft
+    r-lib/async
