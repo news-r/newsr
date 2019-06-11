@@ -32,9 +32,9 @@ All of news-r _R_ tools in one place.
 - [nytimes](https://github.com/news-r/nytimes)
 - [spotlight](https://github.com/news-r/spotlight)
 - [stocknews](https://github.com/news-r/stocknews)
+- [ft](https://github.com/news-r/ft)
 
 ## Installation
-
 
 ```r
 # install.packages("remotes")

@@ -21,9 +21,9 @@ All of news-r _R_ tools in one place.
 - [nytimes](https://github.com/news-r/nytimes)
 - [spotlight](https://github.com/news-r/spotlight)
 - [stocknews](https://github.com/news-r/stocknews)
+- [ft](https://github.com/news-r/ft)
 
 ## Installation
-
 
 ```r
 # install.packages("remotes")
@@ -34,9 +34,10 @@ remotes::install_github("news-r/newsr")
 ```r
 library(newsr)
 #> ── Attaching newsr ───────────────────────────────────────── newsr 0.0.1 ──
-#> ✔ newsapi   0.0.1          ✔ webhoserx 0.0.1     
-#> ✔ guardian  0.0.1.9000     ✔ currents  0.0.1     
-#> ✔ papers    0.0.0.9000     ✔ nytimes   0.0.0.9000
-#> ✔ loc       0.0.0.9000     ✔ spotlight 0.0.0.9000
-#> ✔ webhoser  0.0.1          ✔ stocknews 0.0.1
+#> ✔ newsapi   0.0.1          ✔ currents  0.0.1     
+#> ✔ guardian  0.0.1.9000     ✔ nytimes   0.0.0.9000
+#> ✔ papers    0.0.0.9000     ✔ spotlight 0.0.0.9000
+#> ✔ loc       0.0.0.9000     ✔ stocknews 0.0.1     
+#> ✔ webhoser  0.0.1          ✔ ft        0.0.1     
+#> ✔ webhoserx 0.0.1
 ```
