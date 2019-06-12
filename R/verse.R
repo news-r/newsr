@@ -1,4 +1,4 @@
-pkgs <- c("newsapi", "guardian", "papers", "loc", "webhoser", 
+pkgs <- c("newsapi", "guardian", "papers", "loc", "webhoser", "accunews",
   "webhoserx", "currents", "nytimes", "spotlight", "stocknews", "ft")
 
 is_attached <- function(x) {
