@@ -28,7 +28,9 @@ Imports:
     nytimes, 
     spotlight,
     stocknews,
-    newsriver
+    newsriver,
+    ft,
+    accunews
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -40,4 +42,6 @@ Remotes:
     news-r/nytimes, 
     news-r/spotlight,
     news-r/stocknews,
-    news-r/newsriver
+    news-r/newsriver,
+    news-r/ft,
+    news-r/accunews

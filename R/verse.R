@@ -1,5 +1,5 @@
-pkgs <- c("newsapi", "guardian", "papers", "loc", "webhoser", 
-  "webhoserx", "currents", "nytimes", "spotlight", "stocknews", "newsriver")
+pkgs <- c("newsapi", "guardian", "papers", "loc", "webhoser", "accunews",
+  "webhoserx", "currents", "nytimes", "spotlight", "stocknews", "ft", "newsriver")
 
 is_attached <- function(x) {
   paste0("package:", x) %in% search()
