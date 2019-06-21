@@ -1,3 +1,7 @@
+---
+output: github_document
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 
@@ -25,6 +29,7 @@ All of news-r _R_ tools in one place.
 - [accunews](https://github.com/news-r/accunews) - AccuNews API (local news)
 - [newsriver](https://github.com/news-r/newsriver) - newsriver.io API (news aggregator)
 - [hoaxy](https://github.com/news-r/hoaxy) - Fake news monitoring
+- [factcheck](https://github.com/news-r/hoaxy) - Fact check queries or publishers
 
 ## Installation
 
@@ -42,6 +47,5 @@ library(newsr)
 #> ✔ papers    0.0.0.9000     ✔ nytimes   0.0.0.9000
 #> ✔ loc       0.0.0.9000     ✔ spotlight 0.0.0.9000
 #> ✔ webhoser  0.0.1          ✔ stocknews 0.0.1     
-#> ✔ accunews  0.0.1          ✔ ft        0.0.1     
-#> ✔ hoaxy     0.0.1          ✔ newsriver 0.0.1
+#> ✔ accunews  0.0.1          ✔ ft        0.0.1
 ```

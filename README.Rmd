@@ -36,6 +36,7 @@ All of news-r _R_ tools in one place.
 - [accunews](https://github.com/news-r/accunews) - AccuNews API (local news)
 - [newsriver](https://github.com/news-r/newsriver) - newsriver.io API (news aggregator)
 - [hoaxy](https://github.com/news-r/hoaxy) - Fake news monitoring
+- [factcheck](https://github.com/news-r/hoaxy) - Fact check queries or publishers
 
 ## Installation
 

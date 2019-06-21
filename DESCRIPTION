@@ -31,7 +31,8 @@ Imports:
     newsriver,
     ft,
     accunews,
-    hoaxy
+    hoaxy,
+    factcheck
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -46,4 +47,5 @@ Remotes:
     news-r/newsriver,
     news-r/ft,
     news-r/accunews,
-    news-r/hoaxy
+    news-r/hoaxy,
+    news-r/factcheck
