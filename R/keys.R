@@ -26,6 +26,8 @@ check_keys <- function() {
 
     key <- Sys.getenv(var_name)
 
+    cat(crayon::blue(cli::symbol$info), "webhoserx, loc, and papers packages do not require keys\n")
+
     if(nchar(key) > 0)
       cat(crayon::green(cli::symbol$tick), x, "key found\n")
     else
