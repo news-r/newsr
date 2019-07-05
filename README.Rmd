@@ -50,3 +50,9 @@ remotes::install_github("news-r/newsr")
 ```{r}
 library(newsr)
 ```
+
+The only function currently available is to check which API keys as set, or in other words, which APIs (packages) the user may call.
+
+```{r}
+check_keys()
+```
