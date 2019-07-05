@@ -12,6 +12,8 @@
 #' @export
 check_keys <- function() {
 
+  cat(crayon::blue(cli::symbol$info), "webhoserx, loc, and papers packages do not require keys\n")
+
   .check <- function(x){
 
     pkg_name <- toupper(x)
@@ -25,8 +27,6 @@ check_keys <- function() {
       var_name <- "WEBHOSER_TOKEN"
 
     key <- Sys.getenv(var_name)
-
-    cat(crayon::blue(cli::symbol$info), "webhoserx, loc, and papers packages do not require keys\n")
 
     if(nchar(key) > 0)
       cat(crayon::green(cli::symbol$tick), x, "key found\n")

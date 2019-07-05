@@ -54,24 +54,14 @@ The only function currently available is to check which API keys as set, or in o
 check_keys()
 #> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ newsapi key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✖ currents key not found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✖ factcheck key not found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ guardian key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ nytimes key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ ft key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ stocknews key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✖ accunews key not found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ newsriver key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ hoaxy key found
-#> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✖ webhoser key not found
 ```
