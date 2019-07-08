@@ -6,7 +6,7 @@
 #'
 #' @return Nothing.
 #' 
-#' @example
+#' @examples
 #' check_keys()
 #' 
 #' @export

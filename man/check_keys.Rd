@@ -15,3 +15,7 @@ Check which API keys are set as environmental varibales, or in other words, whic
 \note{
 This does not check whether the API keys are valid, merely that they are set.
 }
+\examples{
+check_keys()
+
+}
