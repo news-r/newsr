@@ -24,6 +24,12 @@ All of news-r _R_ tools in one place.
 
 ## Packages
 
+Lists of packages included.
+
+### Data
+
+Data-related packages, packages to collect data, generally from APIs.
+
 - [newsapi](https://github.com/news-r/newsapi) - newsapi.org (news aggregator)
 - [guardian](https://github.com/news-r/guardian) - The Guardian API
 - [papers](https://github.com/news-r/papers) - Information on newspapers
@@ -39,6 +45,14 @@ All of news-r _R_ tools in one place.
 - [newsriver](https://github.com/news-r/newsriver) - newsriver.io API (news aggregator)
 - [hoaxy](https://github.com/news-r/hoaxy) - Fake news monitoring
 - [factcheck](https://github.com/news-r/hoaxy) - Fact check queries or publishers
+
+### Analysis
+
+Packages for analysis, generally text mining.
+
+- [textanalysis](https://github.com/news-r/textanalysis) - Broad text analysis in R
+- [gensimr](https://gensimr.news-r.org) - Topic Modeling
+- [word2vec.r](https://word2vec.news-r.org) - Word2Vec embeddings in R
 
 ## Installation
 

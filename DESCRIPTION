@@ -34,7 +34,10 @@ Imports:
     ft,
     accunews,
     hoaxy,
-    factcheck
+    factcheck,
+    textanalysis,
+    gensimr,
+    word2vec.r
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -50,4 +53,7 @@ Remotes:
     news-r/ft,
     news-r/accunews,
     news-r/hoaxy,
-    news-r/factcheck
+    news-r/factcheck,
+    news-r/textanalysis,
+    news-r/gensimr,
+    news-r/word2vec.r
