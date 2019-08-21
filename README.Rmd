@@ -70,3 +70,7 @@ The only function currently available is to check which API keys as set, or in o
 ```{r}
 check_keys()
 ```
+
+Please note that the 'newsr' project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+By contributing to this project, you agree to abide by its terms.
