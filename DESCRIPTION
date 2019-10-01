@@ -37,7 +37,8 @@ Imports:
     factcheck,
     textanalysis,
     gensimr,
-    word2vec.r
+    word2vec.r,
+    phrasenets
 Remotes:
     news-r/newsapi,
     news-r/guardian, 
@@ -56,4 +57,5 @@ Remotes:
     news-r/factcheck,
     news-r/textanalysis,
     news-r/gensimr,
-    news-r/word2vec.r
+    news-r/word2vec.r,
+    news-r/phrasenets

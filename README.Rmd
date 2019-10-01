@@ -53,13 +53,18 @@ Packages for analysis, generally text mining.
 - [textanalysis](https://github.com/news-r/textanalysis) - Broad text analysis in R
 - [gensimr](https://gensimr.news-r.org) - Topic Modeling
 - [word2vec.r](https://word2vec.news-r.org) - Word2Vec embeddings in R
+- [phrasenets](https://phrasenets.news-r.org) - Create phrase networks
 
 ## Installation
+
+You can install newsr from Github with remotes:
 
 ```r
 # install.packages("remotes")
 remotes::install_github("news-r/newsr")
 ```
+
+Loading newsr essentially loads all packages in the environment.
 
 ```{r}
 library(newsr)

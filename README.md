@@ -53,26 +53,32 @@ Packages for analysis, generally text mining.
     analysis in R
   - [gensimr](https://gensimr.news-r.org) - Topic Modeling
   - [word2vec.r](https://word2vec.news-r.org) - Word2Vec embeddings in R
+  - [phrasenets](https://phrasenets.news-r.org) - Create phrase networks
 
 ## Installation
+
+You can install newsr from Github with remotes:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("news-r/newsr")
 ```
 
+Loading newsr essentially loads all packages in the environment.
+
 ``` r
 library(newsr)
 #> ── Attaching newsr ───────────────────────────────────────── newsr 0.0.1 ──
-#> ✔ newsapi      0.0.1          ✔ nytimes      0.0.0.9000
-#> ✔ guardian     0.0.1          ✔ spotlight    0.0.0.9000
-#> ✔ papers       0.0.0.9000     ✔ stocknews    0.0.1     
-#> ✔ loc          0.0.0.9000     ✔ ft           0.0.1     
-#> ✔ webhoser     0.0.1          ✔ newsriver    0.0.1     
-#> ✔ accunews     0.0.1          ✔ factcheck    0.0.1     
-#> ✔ hoaxy        0.0.2          ✔ textanalysis 0.0.1     
-#> ✔ webhoserx    0.0.1          ✔ gensimr      0.0.1     
-#> ✔ currents     0.0.1          ✔ word2vec.r   0.0.1
+#> ✔ newsapi      0.0.1          ✔ spotlight    0.0.0.9000
+#> ✔ guardian     0.0.1          ✔ stocknews    0.0.1     
+#> ✔ papers       0.0.0.9000     ✔ ft           0.0.1     
+#> ✔ loc          0.0.0.9000     ✔ newsriver    0.0.1     
+#> ✔ webhoser     0.0.1          ✔ factcheck    0.0.1     
+#> ✔ accunews     0.0.1          ✔ textanalysis 0.0.1     
+#> ✔ hoaxy        0.0.2          ✔ gensimr      0.0.1     
+#> ✔ webhoserx    0.0.1          ✔ word2vec.r   0.0.1     
+#> ✔ currents     0.0.1          ✔ phrasenets   0.0.1     
+#> ✔ nytimes      0.0.0.9000
 ```
 
 The only function currently available is to check which API keys as set,
@@ -93,3 +99,7 @@ check_keys()
 #> ✔ hoaxy key found
 #> ✔ webhoser key found
 ```
+
+Please note that the ‘newsr’ project is released with a [Contributor
+Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
+you agree to abide by its terms.
