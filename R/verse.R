@@ -1,5 +1,5 @@
 pkgs <- c("newsapi", "guardian", "papers", "loc", "webhoser", "accunews", "hoaxy",
-  "webhoserx", "currents", "nytimes", "spotlight", "stocknews", "ft", "newsriver",
+  "currents", "nytimes", "spotlight", "stocknews", "ft", "newsriver", "letterbox",
   "factcheck", "textanalysis", "gensimr", "word2vec.r", "phrasenets")
 
 is_attached <- function(x) {

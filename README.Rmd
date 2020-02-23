@@ -35,7 +35,6 @@ Data-related packages, packages to collect data, generally from APIs.
 - [papers](https://github.com/news-r/papers) - Information on newspapers
 - [loc](https://github.com/news-r/loc) - Library of Congress API
 - [webhoser](https://github.com/news-r/webhoser) - webhose.io API (news aggregator)
-- [webhoserx](https://github.com/news-r/webhoserx) - Feature extraction extension for `webhoser`
 - [currents](https://github.com/news-r/currents) - Currents API (news aggregator)
 - [nytimes](https://github.com/news-r/nytimes) - New York Times API
 - [spotlight](https://github.com/news-r/spotlight) - Entity extraction with DBPedia Spotlight
@@ -44,7 +43,8 @@ Data-related packages, packages to collect data, generally from APIs.
 - [accunews](https://github.com/news-r/accunews) - AccuNews API (local news)
 - [newsriver](https://github.com/news-r/newsriver) - newsriver.io API (news aggregator)
 - [hoaxy](https://github.com/news-r/hoaxy) - Fake news monitoring
-- [factcheck](https://github.com/news-r/hoaxy) - Fact check queries or publishers
+- [factcheck](https://github.com/news-r/factcheck) - Fact check queries or publishers
+- [letterbox](https://github.com/news-r/letterbox) - News article crawler
 
 ### Analysis
 

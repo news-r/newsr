@@ -27,8 +27,6 @@ Data-related packages, packages to collect data, generally from APIs.
   - [loc](https://github.com/news-r/loc) - Library of Congress API
   - [webhoser](https://github.com/news-r/webhoser) - webhose.io API
     (news aggregator)
-  - [webhoserx](https://github.com/news-r/webhoserx) - Feature
-    extraction extension for `webhoser`
   - [currents](https://github.com/news-r/currents) - Currents API (news
     aggregator)
   - [nytimes](https://github.com/news-r/nytimes) - New York Times API
@@ -42,8 +40,10 @@ Data-related packages, packages to collect data, generally from APIs.
   - [newsriver](https://github.com/news-r/newsriver) - newsriver.io API
     (news aggregator)
   - [hoaxy](https://github.com/news-r/hoaxy) - Fake news monitoring
-  - [factcheck](https://github.com/news-r/hoaxy) - Fact check queries or
-    publishers
+  - [factcheck](https://github.com/news-r/factcheck) - Fact check
+    queries or publishers
+  - [letterbox](https://github.com/news-r/letterbox) - News article
+    crawler
 
 ### Analysis
 
@@ -68,17 +68,16 @@ Loading newsr essentially loads all packages in the environment.
 
 ``` r
 library(newsr)
-#> ── Attaching newsr ───────────────────────────────────────── newsr 0.0.1 ──
-#> ✔ newsapi      0.0.1          ✔ spotlight    0.0.0.9000
-#> ✔ guardian     0.0.1          ✔ stocknews    0.0.1     
-#> ✔ papers       0.0.0.9000     ✔ ft           0.0.1     
-#> ✔ loc          0.0.0.9000     ✔ newsriver    0.0.1     
-#> ✔ webhoser     0.0.1          ✔ factcheck    0.0.1     
-#> ✔ accunews     0.0.1          ✔ textanalysis 0.0.1     
-#> ✔ hoaxy        0.0.2          ✔ gensimr      0.0.1     
-#> ✔ webhoserx    0.0.1          ✔ word2vec.r   0.0.1     
-#> ✔ currents     0.0.1          ✔ phrasenets   0.0.1     
-#> ✔ nytimes      0.0.0.9000
+#> ── Attaching newsr ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── newsr 0.0.1 ──
+#> ✔ newsapi      0.0.1     ✔ spotlight    0.1.0
+#> ✔ guardian     0.0.1     ✔ stocknews    0.0.1
+#> ✔ papers       0.0.1     ✔ ft           0.0.1
+#> ✔ loc          0.0.1     ✔ newsriver    0.0.1
+#> ✔ webhoser     0.0.1     ✔ factcheck    0.0.1
+#> ✔ accunews     0.0.1     ✔ textanalysis 0.0.1
+#> ✔ hoaxy        0.0.2     ✔ gensimr      0.0.1
+#> ✔ currents     0.0.1     ✔ word2vec.r   0.0.1
+#> ✔ nytimes      0.1.0     ✔ phrasenets   0.0.1
 ```
 
 The only function currently available is to check which API keys as set,
@@ -89,11 +88,11 @@ check_keys()
 #> ℹ webhoserx, loc, and papers packages do not require keys
 #> ✔ newsapi key found
 #> ✔ currents key found
-#> ✔ factcheck key found
+#> ✖ factcheck key not found
 #> ✔ guardian key found
 #> ✔ nytimes key found
 #> ✔ ft key found
-#> ✖ stocknews key not found
+#> ✔ stocknews key found
 #> ✔ accunews key found
 #> ✔ newsriver key found
 #> ✔ hoaxy key found
