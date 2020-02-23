@@ -50,5 +50,6 @@ PKGS <- c(
   "accunews",
   "newsriver",
   "hoaxy",
-  "webhoser"
+  "webhoser",
+  "letterbox"
 )
