@@ -18,6 +18,8 @@ Lists of packages included.
 ### Data
 
 Data-related packages, packages to collect data, generally from APIs.
+THe `letterbox` packages attempts at providing a unified API for all of
+the latter.
 
   - [newsapi](https://github.com/news-r/newsapi) - newsapi.org (news
     aggregator)
@@ -69,15 +71,16 @@ Loading newsr essentially loads all packages in the environment.
 ``` r
 library(newsr)
 #> ── Attaching newsr ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── newsr 0.0.1 ──
-#> ✔ newsapi      0.0.1     ✔ spotlight    0.1.0
-#> ✔ guardian     0.0.1     ✔ stocknews    0.0.1
-#> ✔ papers       0.0.1     ✔ ft           0.0.1
-#> ✔ loc          0.0.1     ✔ newsriver    0.0.1
+#> ✔ newsapi      0.0.1     ✔ stocknews    0.0.1
+#> ✔ guardian     0.0.1     ✔ ft           0.0.1
+#> ✔ papers       0.0.1     ✔ newsriver    0.0.1
+#> ✔ loc          0.0.1     ✔ letterbox    0.0.1
 #> ✔ webhoser     0.0.1     ✔ factcheck    0.0.1
 #> ✔ accunews     0.0.1     ✔ textanalysis 0.0.1
 #> ✔ hoaxy        0.0.2     ✔ gensimr      0.0.1
 #> ✔ currents     0.0.1     ✔ word2vec.r   0.0.1
 #> ✔ nytimes      0.1.0     ✔ phrasenets   0.0.1
+#> ✔ spotlight    0.1.0
 ```
 
 The only function currently available is to check which API keys as set,

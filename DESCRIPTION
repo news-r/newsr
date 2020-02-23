@@ -32,6 +32,7 @@ Imports:
     stocknews,
     newsriver,
     ft,
+    letterbox,
     accunews,
     hoaxy,
     factcheck,
@@ -58,4 +59,5 @@ Remotes:
     news-r/textanalysis,
     news-r/gensimr,
     news-r/word2vec.r,
-    news-r/phrasenets
+    news-r/phrasenets,
+    news-r/letterbox

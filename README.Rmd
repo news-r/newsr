@@ -28,7 +28,7 @@ Lists of packages included.
 
 ### Data
 
-Data-related packages, packages to collect data, generally from APIs.
+Data-related packages, packages to collect data, generally from APIs. THe `letterbox` packages attempts at providing a unified API for all of the latter.
 
 - [newsapi](https://github.com/news-r/newsapi) - newsapi.org (news aggregator)
 - [guardian](https://github.com/news-r/guardian) - The Guardian API
